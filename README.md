@@ -9,7 +9,8 @@ It should serve as a basic replacement for the fantastic ["QuoteURLText" extensi
 
 ## Requirements
 
-Firefox (Quantum) 57 or later. Developed and tested in Firefox 58.
+Firefox (Quantum) 57 or later / Chrome 63 or later.
+Developed and tested in Firefox 58 and Chrome 63.
 
 ## How to use
 
@@ -43,4 +44,9 @@ https://github.com/marekjedlinski/webext-copy-title-url
 The initial Firefox-only version lives in its own repo here:
 https://github.com/marekjedlinski/firefox-copy-title-url
 
+Download for Firefox:
+https://addons.mozilla.org/pl/firefox/addon/copy-page-title-and-url/
+
+Download for Chrome:
+TBA
 
