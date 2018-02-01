@@ -15,7 +15,7 @@ Developed and tested in Firefox 58 and Chrome 63.
 ## Download
 
 Download for Firefox:
-https://addons.mozilla.org/pl/firefox/addon/copy-page-title-and-url/
+https://addons.mozilla.org/en-US/firefox/addon/copy-page-title-and-url/
 
 Download for Chrome:
 https://chrome.google.com/webstore/detail/copy-page-title-and-url/mcnddmglmjbomnfgkehnnblncllkaedm
