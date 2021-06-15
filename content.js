@@ -4,14 +4,14 @@ chrome.runtime.onMessage.addListener(
     function(request, sender) {
         // grab Shift key state as fast as we can
         const forceTitle = modKeyDown;
-        let clipboardData = request.tabTitle + '\n' + request.tabUrl;
+        let clipboardData = '[' + request.tabTitle + '](' + request.tabUrl + ')';
 
         if (request.useSelection) {
             const selectedText = window.getSelection().toString().trim();
             if (selectedText) {
-                clipboardData = selectedText + '\n' + request.tabUrl;
+                clipboardData = '[' + selectedText + '](' + request.tabUrl + ')';
                 if (forceTitle) {
-                    clipboardData = request.tabTitle + '\n' + clipboardData;
+                    clipboardData = '[' + request.tabTitle + '](' + clipboardData + ')';
                 }
             }
         }
