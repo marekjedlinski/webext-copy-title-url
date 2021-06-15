@@ -2,24 +2,24 @@
 
 This Firefox/Chrome extension adds an item to the context menu which allows you to __copy the title and the url__ of the current page to clipboard. If any __text is selected on the page__, the selected text is copied instead of the title of the page (the url is always included).
 
-This is useful when emailing/sharing links or collecting citations/quotes from the web.
+This is useful when emailing/sharing links or collecting citations/quotes from the web in your markdown document.
 
 It should serve as a basic replacement for the fantastic ["QuoteURLText" extension](https://addons.mozilla.org/en-US/firefox/addon/quoteurltext/) by Jay Palat, which had more functionality but is no longer supported by Firefox.
-
 
 ## Requirements
 
 Firefox (Quantum) 57 or later / Chrome 63 or later.
 Developed and tested in Firefox 58 and Chrome 63.
 
+Markdown encoding tested on Firefox 89 only.
+
 ## Download
 
 Download for Firefox:
-https://addons.mozilla.org/en-US/firefox/addon/copy-page-title-and-url/
+<https://addons.mozilla.org/en-US/firefox/addon/copy-page-title-and-url/>
 
 Download for Chrome:
-https://chrome.google.com/webstore/detail/copy-page-title-and-url/mcnddmglmjbomnfgkehnnblncllkaedm
-
+<https://chrome.google.com/webstore/detail/copy-page-title-and-url/mcnddmglmjbomnfgkehnnblncllkaedm>
 
 ## How to use
 
@@ -35,11 +35,17 @@ If you hold down the Control or Shift key while clicking the menu item, the exte
 
 ## Version history
 
+1.4:
+
+- Changed to clipboard has a markdown encoded link.
+
 1.3:
+
 - Rewritten for compatibility with Chrome. Now the same code can be used to generate the extension for both browsers.
 - Added support for Ctrl key in addition to Shift key (due to an apparent bug in Chrome, which modifies selection range on Shift+right click)
 
 1.2:
+
 - Initial release, Firefox only
 
 ## Author and links
@@ -48,5 +54,9 @@ Marek Jedliński
 marek.jedlinski@gmail.com
 
 github:
-https://github.com/marekjedlinski/webext-copy-title-url
+<https://github.com/marekjedlinski/webext-copy-title-url>
 
+Markdown encoding by
+
+Erik Wenzel
+github@ycore.net
